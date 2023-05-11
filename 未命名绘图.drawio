@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T08:02:06.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="vn-PhRMCbv1cc6KKvlZm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T08:11:07.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="qT9guHo808Xeya4bnO5c" version="21.2.9" type="github">
   <diagram name="第 1 页" id="0as3D_hUYv0-rufbf85J">
-    <mxGraphModel>
+    <mxGraphModel dx="1430" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="npMdjCekPnvQSx6FVvvl-1" value="场景标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.046;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.651;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="npMdjCekPnvQSx6FVvvl-3" target="npMdjCekPnvQSx6FVvvl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.71" y="310" as="sourcePoint" />
+            <mxPoint x="200" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-3" value="场景图片.pic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-4" value="YOLO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="npMdjCekPnvQSx6FVvvl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npMdjCekPnvQSx6FVvvl-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-6" value="路径规划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npMdjCekPnvQSx6FVvvl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-10" value="不同角度图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npMdjCekPnvQSx6FVvvl-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-12" value="NeRF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npMdjCekPnvQSx6FVvvl-14" value="输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
